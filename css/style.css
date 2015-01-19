@@ -776,7 +776,7 @@ form {
 }
 
 footer {
-    background-color: #98d361;
+    background-color: #1F7BA2;
     margin-top: 40px;
 }
 
@@ -813,7 +813,7 @@ footer {
     font-size: 17px;
     font-weight: 600;
     text-transform: uppercase;
-    border: 3px solid #b1e67f;
+    border: 3px solid 98dfff;
     width: 170px;
     height: 40px;
     display: inline-block;
