@@ -669,7 +669,7 @@ html {
 }
 
 #map {
-    background-image: url(../images/map-bg.png);
+    background-image: url(../images/quizz-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -821,11 +821,11 @@ footer {
     text-align: center;
     color: #fff;
     text-decoration: none;
-    background-color: #98d361;
+    background-color: #2F89B8;
 }
 
 .back-to-top a:hover {
-    background-color: #98d361;
+    background-color: #276B8E;
     border-color: #8bc655;
 }
 
@@ -848,12 +848,12 @@ footer {
     display: block;
     text-align: center;
     line-height: 35px;
-    background-color: #98d361;
+    background-color: #2F89B8;
     border: 4px solid #b1e67f;
 }
 
 .social-icons a:hover {
-    background-color: #98d361;
+    background-color: #276B8E;
     border-color: #8bc655;
 }
 
