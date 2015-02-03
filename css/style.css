@@ -1053,3 +1053,13 @@ footer {
 cl {
     color:#1F7BA2;
 }
+
+.content {
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:5%;
+}
+
+.content img {
+    margin:2%;
+}
