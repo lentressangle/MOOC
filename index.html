@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> 
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en">
 <![endif]-->
-<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> 
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en">
 <![endif]-->
 <!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
@@ -20,12 +20,13 @@
         <!-- JavaScripts -->
         <script src="js/vendor/jquery-1.10.2.min.js"></script>
         <script src="js/vendor/modernizr.min.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
         <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM">
         </script>
 
 	</head>
 	<body>
-    
+
     <header class="site-header" id="top">
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
@@ -38,7 +39,7 @@
                             <a class="navbar-brand" href="#">
                                 <p>How does the internet work ?</p>
                             </a>
-                        </div>  
+                        </div>
                     </div>
                     <div class="collapse navbar-collapse" id="main-menu">
                         <ul class="nav navbar-nav navbar-right">
@@ -49,7 +50,7 @@
                             <li><span></span><a href="#third-section" class="contact">Contact</a></li>
                         </ul>
                     </div>
-                </div> 
+                </div>
             </div>
         </nav>
     </header>
@@ -66,17 +67,17 @@
                     </ul>
                 </div>
             </div>
-        </div>               
+        </div>
     </div>
 
-    
+
     <div id="first-section">
         <div class="heading">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                             <h2 class="header-section-title">What is the MOOC</h2>
-                    </div> 
+                    </div>
                 </div>
             </div>
         </div>
@@ -121,16 +122,16 @@
                                 <h2>Learning everywhere</h2>
                                 <p>On your computer, smartphone or tablette ...</p>
                             </div>
-                        </div> 
+                        </div>
 
                     </section>
 
                     <video width="90%" controls style="display: block; margin: 0 auto;">
                         <source src="../mooc-video-internet.MP4" type="video/mp4">
                         Your browser does not support the video tag.
-                    </video> 
+                    </video>
                     <br/>
-                    
+
                 </div>
             </div>
         </div>
@@ -142,12 +143,12 @@
                 <div class="row">
                     <div class="col-md-12">
                             <h2>Themes</h2>
-                    </div> 
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    
+
     <div id="second-section2">
         <div class="container">
             <div class="row">
@@ -170,7 +171,7 @@
                                 </div>
                             </a>
                         </div>
-                        
+
                         <div class="cd-timeline-block">
                             <div class="cd-timeline-img cd-picture">
                                 <img src="images/camera-icon.png" alt="Picture">
@@ -232,7 +233,7 @@
                                     </div>
                                 </div>
                             </a>
-                            
+
                         </div>
                     </section>
                 </div>
@@ -247,11 +248,82 @@
                 <div class="col-md-12">
                     <h4>Quizz</h4>
                     <p>What have you learned?</p>
-                </div>   
+                    <div class="text-center"><button type="button" class="btn btn-default" data-toggle="modal" data-target="#quizzAnswers">Show answers</button></div>
+                </div>
+                <div class="modal fade" id="quizzAnswers" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="quizzAnswersLabel">Quizz answers</h4>
+                      </div>
+                      <div class="modal-body">
+                        <p>Q1 : 1</p>
+                        <p>Q2 : 3</p>
+                        <p>Q3 : 3</p>
+                        <p>Q4 : 3</p>
+                        <p>Q5 : 2</p>
+                        <p>Q6 : 4</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
             <div class="row">
-                <div class="col-md-12">
-                    <p class="map-content">Coming soon ...</p>
+                <div class="col-sm-4">
+                    <p class="map-content">Q1. Which sentence describe the internet in the best way?</p>
+                    <ol>
+                        <li>Interconnexion of networks</li>
+                        <li>All the information you can get with a computer</li>
+                        <li>A big bubble</li>
+                        <li>Every computer in the world</li>
+                    </ol>
+
+                    <p class="map-content">Q2. What is the ancestor of the internet?</p>
+                    <ol>
+                        <li>intranet</li>
+                        <li>extranet</li>
+                        <li>arpanet</li>
+                        <li>pronet</li>
+                    </ol>
+                </div>
+                <div class="clear"></div>
+                <div class="col-sm-4">
+                    <p class="map-content">Q3. Which cloud services does not exist ?</p>
+                    <ol>
+                        <li>Paas</li>
+                        <li>Saas</li>
+                        <li>Maas</li>
+                        <li>Iaas</li>
+                    </ol>
+
+                    <p class="map-content">Q4. You can make telephone calls over the Internet using a technology called :</p>
+                    <ol>
+                        <li>Intertel</li>
+                        <li>Telenet</li>
+                        <li>VoIP</li>
+                        <li>VoRP</li>
+                    </ol>
+                </div>
+                <div class="col-sm-4">
+                    <p class="map-content">Q5. What is the name of the service that can translate an IP address in a name?</p>
+                    <ol>
+                        <li>ARP</li>
+                        <li>DNS</li>
+                        <li>HTTP</li>
+                        <li>internet</li>
+                    </ol>
+
+                    <p class="map-content">Q6. Which network topology doesn’t exist ?</p>
+                    <ol>
+                        <li>BUS</li>
+                        <li>LAN</li>
+                        <li>WAN</li>
+                        <li>STAR</li>
+                    </ol>
                 </div>
             </div>
         </div>
@@ -263,12 +335,12 @@
                 <div class="row">
                     <div class="col-md-12">
                             <h2>Send Us A Message</h2>
-                    </div> 
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    
+
     <div id="third-section3">
         <div class="container">
             <div class="row">
@@ -286,13 +358,13 @@
                         </div>
                         <div class="subject col-md-4">
                             <input type="text" name="subject" id="subject" placeholder="Subject" />
-                        </div> 
                         </div>
-                        <div class="row">        
+                        </div>
+                        <div class="row">
                             <div class="text col-md-12">
                                 <textarea name="text" placeholder="Message"></textarea>
-                            </div>   
-                        </div>                              
+                            </div>
+                        </div>
                         <div class="submit">
                             <input type="submit" value="Send Now" />
                         </div>
@@ -309,7 +381,7 @@
                         Tel: 02 40 74 29 01<br>
 						Website: www.univ-nantes.fr
                         <br><br>
-                        
+
                         </p>
                     </div>
                 </div>
@@ -317,7 +389,7 @@
         </div>
     </div>
 
-    
+
     <footer>
         <div class="container">
             <div class="footer-content">
@@ -338,13 +410,13 @@
                                 <p>Done by Loic Entressangle, Flavien Sardais, Paul-Jakez Bocéno, Boris Lebrun & Jérémy Klauer</p>
                             </div>
                         </div>
-                    </div>    
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
 
-    
+
 		<!-- Javascripts -->
 		<script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/custom.js"></script>

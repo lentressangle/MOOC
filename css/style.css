@@ -235,15 +235,15 @@ html {
     .cd-timeline-block {
         margin: -3em 0;
     }
-	
+
 	#cd-timeline-2 .cd-timeline-block {
         margin: -12em 0;
     }
-	
+
 	#cd-timeline-2 .cd-timeline-block:first-child {
         margin-top: 0;
     }
-	
+
 	#cd-timeline-2 .cd-timeline-block:last-child {
         margin-bottom: 0;
     }
@@ -459,7 +459,7 @@ html {
 }
 
 @media only screen and (min-width: 1170px) {
-  
+
     .projects img {
         border: 4px solid #eee;
         max-width: 100%;
@@ -674,6 +674,7 @@ html {
     background-repeat: no-repeat;
     width: 100%;
     height: 680px;
+    color: #fff;
 }
 
 #map h4 {
@@ -697,6 +698,15 @@ html {
 
 .map-content {
     margin-top: 50px;
+}
+
+#quizzAnswers h4 {
+    color: black;
+    margin-top: 0px;
+}
+
+#quizzAnswers p {
+    color: black;
 }
 
 form {
